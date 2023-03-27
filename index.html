@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Projetos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k96Msw6/arSBe58PpAlM8IFoEauAbK4YYz4hd4/J4C60WbMGdpKa2QD1mFEFx9j/" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+     
+    </header>
+
+    <main>
+        
+      <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="filter">
+      
+        <select id="filterSelectEscola">
+            <option value="">Buscar por escola </option>
+            <option value="agro">Agro</option>
+            <option value="poli">Politecnico</option>
+            <option value="saude">Saúde</option>
+            <!-- Adicione outras opções de tags aqui -->
+        </select>
+   
+        <select id="filterSelectCurso">
+            <option value="">Buscar por curso</option>
+            <option value="bio">Biologia</option>
+            <option value="cc">Ciência da computação</option>
+            <option value="fono">Fonoaudiologia</option>
+            <!-- Adicione outras opções de tags aqui -->
+        </select>
+        <select id="filterSelectEstagio">
+            
+            <option value="">Buscar por estágio</option>
+            <option value="mvp">MVP</option>
+            <option value="ideia">Idéia</option>
+            <option value="escala">Escala</option>
+            <!-- Adicione outras opções de tags aqui -->
+        </select>
+    </div>
+    <!-- Adicione seus projetos aqui -->
+</section>
+
+        
+        <section class="portfolio">
+        
+
+      
+
+       
+            <div class="card" data-tags="poli cc ideia"  >
+
+               
+
+                <div class="cimaCard">
+                    <h2>Carros Elétricos </h2>
+                </div>
+                
+                <div class="baixoCard">
+                    <div class="baixoCardTexto">
+                        <p>Projeto de conversão de motores a combustão para elétricos... 
+                        </p>
+                        
+
+                    </div>
+                    
+                </div>
+                <div class="card-tags" >
+                    <div class="tagsDescricao">
+                        <p>Escola</p>
+                        <span class="card-tag empreendedorismo">Politécnica</span>
+                    </div>
+
+                    <div class="tagsDescricao">
+                        <p>Curso</p>
+                        <span class="card-tag robotica">Ciência da Computação</span>
+                    </div>
+
+                    <div class="tagsDescricao">
+                        <p>Estágio</p>
+                        <span class="card-tag mvp">
+                           
+                            Idéia   </span>
+                    </div>
+
+                </div>
+                
+            </div>
+
+
+            <div class="card" data-tags="bio agro mvp" >
+
+               
+
+                <div class="cimaCard">
+                    <h2>FertEasy</h2>
+                </div>
+                
+                <div class="baixoCard">
+                    <div class="baixoCardTexto">
+                        <p>Uso do lodo de esgoto como substrasto para substituir fertilizantes... </p>
+                    </div>
+                </div>
+                <div class="card-tags">
+
+                    
+                    <div class="tagsDescricao">
+                        <p>Escola</p>
+                        <span class="card-tag empreendedorismo">Agro</span>
+                    </div>
+
+                    <div class="tagsDescricao">
+                        <p>Curso</p>
+                        <span class="card-tag robotica">Biologia</span>
+                    </div>
+
+                    <div class="tagsDescricao">
+                        <p>Estágio</p>
+                        <span class="card-tag mvp">MVP</span>
+                    </div>
+
+                    
+
+                </div>
+                
+            </div>
+
+
+            <div class="card" data-tags="fono saude escala" >
+
+               
+
+                <div class="cimaCard">
+                    <h2>MedSinal</h2>
+                </div>
+                
+                <div class="baixoCard">
+                    <div class="baixoCardTexto">
+                        <p>plataforma para ensinar libras a profissionais da área da saúde... </p>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <div class="tagsDescricao">
+                        <p>Escola</p>
+                        <span class="card-tag empreendedorismo">Saúde</span>
+                    </div>
+
+                    <div class="tagsDescricao">
+                        <p>Curso</p>
+                        <span class="card-tag robotica">Fonoaudiologia </span>
+                    </div>
+
+                    <div class="tagsDescricao">
+                        <p>Estágio</p>
+                        <span class="card-tag mvp"> Escala</span>
+                    </div>
+
+                </div>
+                
+            </div>
+           
+            
+      
+           
+            <!-- Repita os elementos .card para adicionar mais projetos -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por Lucas Gatica</p>
+    </footer>
+
+    <script src="pesquisa.js"></script>
+  
+    
+</body>
+</html>
