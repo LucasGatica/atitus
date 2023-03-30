@@ -3,7 +3,7 @@
         "id": 1,
         "title": "EcoConversão",
         "description": "O MVP do EcoConversão consiste em converter motores de motocicletas, que são veículos muito populares em muitas cidades do mundo. O processo de conversão envolve a remoção do motor a combustão e a instalação de um motor elétrico, bateria e controlador de velocidade. O motor elétrico utilizado é um modelo compacto e eficiente, que possui potência suficiente para mover a motocicleta com desempenho comparável ao motor a combustão original. A bateria é recarregável e pode ser facilmente substituída, permitindo que a motocicleta tenha uma autonomia de cerca de 80 km.O controlador de velocidade permite que o motor elétrico seja gerenciado com precisão, garantindo um desempenho estável e seguro. Além disso, o controlador também pode ser configurado para permitir que o motor regenere energia durante a frenagem, aumentando ainda mais a eficiência da conversão.",
-        "tags": ["poli", "cc", "mvp"],
+        "tags": ["Poli", "Cc", "Mvp"],
         "author": {
           "name": "Lucas Gatica",
           "photo":"https://media.licdn.com/dms/image/C4E03AQHXAIXqh4D7vA/profile-displayphoto-shrink_800_800/0/1625195823556?e=2147483647&v=beta&t=VDmPEXevc-CkPSsSIzwEys1OiqLNkBoAlj0ziLSOBig"
@@ -16,7 +16,7 @@
       "id": 2,
       "title": "FertEasy",
       "description": "  O lodo de esgoto é um subproduto do tratamento de águas residuais que contém nutrientes como nitrogênio, fósforo e potássio, que são essenciais para o crescimento das plantas. Além disso, o uso do lodo de esgoto como fertilizante orgânico pode reduzir a quantidade de resíduos que precisam ser descartados em aterros sanitários. Para realizar este projeto, seria necessário realizar uma série de testes para determinar a melhor forma de utilizar o lodo de esgoto como substrato. Isso pode envolver a criação de diferentes misturas de lodo de esgoto com outros materiais, como serragem, palha e outros compostos orgânicos, para determinar qual mistura é mais adequada para diferentes tipos de plantas. Também seria necessário testar a segurança do uso do lodo de esgoto como fertilizante e garantir que ele não contenha metais pesados ou outros contaminantes que possam prejudicar as plantas ou o meio ambiente.Uma vez que os testes tenham sido realizados e a mistura de lodo de esgoto mais adequada tenha sido determinada, seria possível começar a produzir e distribuir o substrato para agricultores e outros usuários. Seria importante fornecer informações claras sobre o uso do lodo de esgoto como fertilizante e sobre os benefícios ambientais de sua utilização, a fim de encorajar mais pessoas a adotar essa abordagem mais sustentável para a agricultura.",
-      "tags": ["bio", "agro", "ideia"],
+      "tags": ["Bio", "Agro", "Ideia"],
       "author": {
         "name": "Lucas Gatica",
         "photo": "https://media.licdn.com/dms/image/C4E03AQHXAIXqh4D7vA/profile-displayphoto-shrink_800_800/0/1625195823556?e=2147483647&v=beta&t=VDmPEXevc-CkPSsSIzwEys1OiqLNkBoAlj0ziLSOBig"
@@ -27,8 +27,10 @@
     {
       "id": 3,
       "title": "MedSinal",
+      "diferencial":"-Professores surdos: Os cursos presenciais e a plataforma online contam com professores surdos, que possuem experiência na comunicação em Libras e entendem as necessidades específicas dos surdos. Isso garante um ensino mais autêntico e efetivo da língua. <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Ambiente virtual de prática: A plataforma online oferece um ambiente virtual de prática de comunicação em Libras, onde os profissionais podem interagir com pessoas surdas e treinar a comunicação em situações reais. Isso torna o aprendizado mais dinâmico e ajuda a preparar os profissionais para situações reais.",
+
       "description": "Um projeto que está em fase de escala para ensinar Libras para profissionais é o 'MedSinal'. O objetivo do projeto é capacitar profissionais de diferentes áreas da saúde a se comunicar em Libras e oferecer um atendimento mais inclusivo para pessoas surdas. O projeto começou com a realização de cursos presenciais de Libras em algumas cidades do país. Os cursos foram ministrados por professores surdos e abordaram desde conceitos básicos da língua até a comunicação em situações específicas, como em um consultório médico ou em uma sala de aula. Os profissionais que participaram dos cursos também tiveram a oportunidade de interagir com pessoas surdas e praticar a comunicação em Libras.Com o sucesso dos cursos presenciais, o projeto expandiu suas atividades para uma plataforma online de ensino de Libras. A plataforma conta com aulas em vídeo, jogos, exercícios e outras atividades interativas que visam tornar o aprendizado da língua mais lúdico e fácil. Além disso, a plataforma oferece um ambiente virtual de prática de comunicação em Libras, onde os profissionais podem interagir com pessoas surdas e treinar a comunicação em situações reais.",
-      "tags": ["fono", "saude", "escala"],
+      "tags": ["Fono", "Saude", "Escala"],
       "author": {
         "name": "Super Gatica",
         "photo": "https://www.infoescola.com/wp-content/uploads/2008/05/capivara-119654188.jpg"

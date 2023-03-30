@@ -1,189 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image:
-  radial-gradient(circle at 20% 30%, #131717 0%, transparent 60%),
-  radial-gradient(circle at 20% 30%, #131717 0%, transparent 60%),
-  radial-gradient(circle at 80% 50%, #1db280 0%, transparent 70%),
-  linear-gradient(135deg, #262626 60%, transparent 100%),
-  radial-gradient(circle at 60% 70%, #1db280 0%, transparent 50%),
-  linear-gradient(45deg, #131717 30%, transparent 70%),
-  radial-gradient(circle at 60% 20%, #262626 0%, transparent 40%),
-  radial-gradient(circle at 80% 50%, #131717  0%, transparent 70%),
-  linear-gradient(135deg, #262626 60%, transparent 100%),
-  radial-gradient(circle at 50% 80%, #1db280 0%, transparent 50%),
-  linear-gradient(45deg, #1db280 30%, transparent 70%),
-  radial-gradient(circle at 60% 20%, #1db280 0%, transparent 40%);
+  font-family: 'Poppins', sans-serif;
 
-    color: #fff;
-  }
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+  background-image:
+    radial-gradient(circle at 20% 30%, #131717 0%, transparent 60%),
+    radial-gradient(circle at 20% 30%, #131717 0%, transparent 60%),
+    radial-gradient(circle at 80% 50%, #1db280 0%, transparent 70%),
+    linear-gradient(135deg, #262626 60%, transparent 100%),
+    radial-gradient(circle at 60% 70%, #1db280 0%, transparent 50%),
+    linear-gradient(45deg, #131717 30%, transparent 70%),
+    radial-gradient(circle at 60% 20%, #262626 0%, transparent 40%),
+    radial-gradient(circle at 80% 50%, #131717  0%, transparent 70%),
+    linear-gradient(135deg, #262626 60%, transparent 100%),
+    radial-gradient(circle at 50% 80%, #1db280 0%, transparent 50%),
+    linear-gradient(45deg, #1db280 30%, transparent 70%),
+    radial-gradient(circle at 60% 20%, #1db280 0%, transparent 40%);
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  padding: 20px;
+  height: 80%;
+  background-color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h2{
+  text-align: start;
+  width: 90%;
   
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+#project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background-color: #888;
+  color: #fff;
+  padding: 20px 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: 1px solid #e5e5e5;
+}
+
+a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+.tag-1 {
+  background-color: #7d71f6;
+}
+
+.tag-2 {
+  background-color: #ec81c8;
+}
+
+.tag-3 {
+  background-color: #ffaa72;
+}
+
+.author-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 3px solid #131717;
+}
+
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  position: relative
+}
+
+.horizontal-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #fff;
+}
+
+#project-tags {
+  margin-top: 20px;
+}
+
+.author-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkedin-btn:hover {
+  background-color: #005582;
+}
+
+.interest-btn {
+  background-color: #ec81c8;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.interest-btn:hover {
+  background-color: #c75a92;
+}
+
+.button-container {
+  position: absolute;
+  right: 240px;
+  bottom: 20px;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  
+}
+
+.botao-download{
+  background-color: rgb(41, 41, 41);
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #c75a92;
+  border-radius: 2px;
+}
+.imgS{
+  width: 40px;
+  filter: invert(44%) sepia(22%) saturate(1386%) hue-rotate(277deg) brightness(97%) contrast(82%);
+
+
+}
+.areabotao{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  margin-bottom: 20px;
+}
+.areabotao p {
+  margin: auto;
+  margin-top: 10px;
+  align-items: center;
+  
+}
+
+
+/* Media queries for mobile devices */
+@media (max-width: 900px) {
   .container {
-    max-width: 1000px;
-    width: 100%;
-    padding: 20px;
-    height: 80%;
-    background-color: #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    min-height: 100%;
   }
-  
+
   h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 3.5rem;
   }
-  
+
   p {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    font-size: 20px;
-  }
-  
-  #project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  
-  .tag {
-    background-color: #888;
-    color: #fff;
-    padding: 15px 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 0.8rem;
-    border: 1px solid #e5e5e5;;
-  }
-  a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
   }
-  
-  a:hover {
-    background-color: #555;
-  }
-  
 
-  .tag-1 {
-    background-color: #7d71f6;
-  }
-  
-  .tag-2 {
-    background-color: #ec81c8;
-  }
-  
-  .tag-3 {
-    background-color: #ffaa72;
-  }
-  
-
-  
-  .card-author-photo {
-    width: 40px;
-    height: 40px;
-   
-    margin-right: 10px;
-    margin-top: 10px;
-  }
-  
-  .card-author-name {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
   .author-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: 3px solid #131717;
+    width: 80px;
+    height: 80px;
   }
-  
-  .container {
+
+  .button-container,
+  .interest-btn  {
+    position: static;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  
-  .top-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    position: relative;
-  }
-  
-  .horizontal-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #fff;
+    align-items: flex-start;
+    gap: 20px;
   }
 
-  #project-tags {
-    margin-top: 20px;
+  .interest-btn {
+    font-size: 20px;
+    padding: 12px 24px;
   }
 
-
+  a {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
 
   .author-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    margin-bottom: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .linkedin-btn {
-    background-color: #0077b5;
-    margin-top: 5px;
-    font-size: 14px;
-  }
-  
-  .interest-btn {
-    background-color: #ec81c8;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-  }
-  
-  .interest-btn:hover {
-    background-color: #c75a92;
+    position: static;
   }
 
-  .container {
-    position: relative;
-    max-width: 1000px;
-    width: 100%;
-    padding: 20px;
-    height: 80%;
-    background-color: #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .author-img {
+    width: 200px;
+    height: 200px;
   }
-  
-  .button-container {
-    position: absolute;
-    right: 200px;
-    bottom: 20px;
-  }
-
- 
+}

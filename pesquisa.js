@@ -45,6 +45,10 @@ function filterProjects(filterSelectId) {
        
           document.getElementById("project-title").textContent = project.title;
           document.getElementById("project-description").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.description;
+          document.getElementById("project-diferencial").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.diferencial;
+          document.getElementById("project-solucao").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.description;
+
+
           
           const tags = project.tags.map((tag, index) => {
             let tagColor = "";
