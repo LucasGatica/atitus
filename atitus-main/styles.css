@@ -148,24 +148,3 @@ main {
     #projetos h2 {
     color: #ec81c8;
     }
-    @media (max-width: 900px) {
-
-        #projetos{
-            display: flex;
-            flex-direction: column;
-            width: 80%;
-           
-            
-        }
-
-   
-        .portfolio {
-            width: 90%;
-            height: 300%;
-        }
-        .card {
-
-            width: 100%;
-            height: 450px;
-        }
-    }

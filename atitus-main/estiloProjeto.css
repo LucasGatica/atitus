@@ -204,7 +204,6 @@ a:hover {
   
   align-items: center;
   margin-bottom: 20px;
-
 }
 .areabotao p {
   margin: auto;
@@ -264,9 +263,5 @@ a:hover {
   .author-img {
     width: 200px;
     height: 200px;
-  }
-
-  .areabotao:nth-child(1){
-   margin-right: 20px;
   }
 }

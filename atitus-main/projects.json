@@ -4,14 +4,14 @@
         "nome": "EcoConversão",
         "descricao": "Projeto de conversão de motores a combustão para elétricos...",
         "escola": "Politécnica",
-        "curso": "Computação",
+        "curso": "Ciência da Computação",
         "estagio": "MVP",
         "tags": ["poli", "cc", "mvp"],
         "title": "EcoConversão",
         "diferencial":"-Professores surdos: Os cursos presenciais e a plataforma online contam com professores surdos, que possuem experiência na comunicação em Libras e entendem as necessidades específicas dos surdos. Isso garante um ensino mais autêntico e efetivo da língua. <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Ambiente virtual de prática: A plataforma online oferece um ambiente virtual de prática de comunicação em Libras, onde os profissionais podem interagir com pessoas surdas e treinar a comunicação em situações reais. Isso torna o aprendizado mais dinâmico e ajuda a preparar os profissionais para situações reais.",
 
         "description": "O MVP do EcoConversão consiste em converter motores de motocicletas, que são veículos muito populares em muitas cidades do mundo. O processo de conversão envolve a remoção do motor a combustão e a instalação de um motor elétrico, bateria e controlador de velocidade. O motor elétrico utilizado é um modelo compacto e eficiente, que possui potência suficiente para mover a motocicleta com desempenho comparável ao motor a combustão original. A bateria é recarregável e pode ser facilmente substituída, permitindo que a motocicleta tenha uma autonomia de cerca de 80 km.O controlador de velocidade permite que o motor elétrico seja gerenciado com precisão, garantindo um desempenho estável e seguro. Além disso, o controlador também pode ser configurado para permitir que o motor regenere energia durante a frenagem, aumentando ainda mais a eficiência da conversão.",
-        
+        "tags": ["Poli", "Cc", "Mvp"],
         "author": {
           "name": "Lucas Gatica",
           "photo":"https://media.licdn.com/dms/image/C4E03AQHXAIXqh4D7vA/profile-displayphoto-shrink_800_800/0/1625195823556?e=2147483647&v=beta&t=VDmPEXevc-CkPSsSIzwEys1OiqLNkBoAlj0ziLSOBig"
@@ -22,17 +22,17 @@
 ,      
     {
       "id": 2,
-      "nome": "FertEasy",
-        "descricao": "Uso do lodo de esgoto como substrasto para substituir fertilizantes...",
-        "escola": "Agro",
-        "curso": "Biologia",
-        "estagio": "Escala",
-        "tags": ["Agro", "bio", "escala"],
+      "nome": "EcoConversão",
+        "descricao": "Projeto de conversão de motores a combustão para elétricos...",
+        "escola": "Politécnica",
+        "curso": "Ciência da Computação",
+        "estagio": "MVP",
+        "tags": ["poli", "cc", "mvp"],
       "title": "FertEasy",
       "diferencial":"-Professores surdos: Os cursos presenciais e a plataforma online contam com professores surdos, que possuem experiência na comunicação em Libras e entendem as necessidades específicas dos surdos. Isso garante um ensino mais autêntico e efetivo da língua. <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Ambiente virtual de prática: A plataforma online oferece um ambiente virtual de prática de comunicação em Libras, onde os profissionais podem interagir com pessoas surdas e treinar a comunicação em situações reais. Isso torna o aprendizado mais dinâmico e ajuda a preparar os profissionais para situações reais.",
 
       "description": "  O lodo de esgoto é um subproduto do tratamento de águas residuais que contém nutrientes como nitrogênio, fósforo e potássio, que são essenciais para o crescimento das plantas. Além disso, o uso do lodo de esgoto como fertilizante orgânico pode reduzir a quantidade de resíduos que precisam ser descartados em aterros sanitários. Para realizar este projeto, seria necessário realizar uma série de testes para determinar a melhor forma de utilizar o lodo de esgoto como substrato. Isso pode envolver a criação de diferentes misturas de lodo de esgoto com outros materiais, como serragem, palha e outros compostos orgânicos, para determinar qual mistura é mais adequada para diferentes tipos de plantas. Também seria necessário testar a segurança do uso do lodo de esgoto como fertilizante e garantir que ele não contenha metais pesados ou outros contaminantes que possam prejudicar as plantas ou o meio ambiente.Uma vez que os testes tenham sido realizados e a mistura de lodo de esgoto mais adequada tenha sido determinada, seria possível começar a produzir e distribuir o substrato para agricultores e outros usuários. Seria importante fornecer informações claras sobre o uso do lodo de esgoto como fertilizante e sobre os benefícios ambientais de sua utilização, a fim de encorajar mais pessoas a adotar essa abordagem mais sustentável para a agricultura.",
-      
+      "tags": ["Bio", "Agro", "Ideia"],
       "author": {
         "name": "Lucas Gatica",
         "photo": "https://media.licdn.com/dms/image/C4E03AQHXAIXqh4D7vA/profile-displayphoto-shrink_800_800/0/1625195823556?e=2147483647&v=beta&t=VDmPEXevc-CkPSsSIzwEys1OiqLNkBoAlj0ziLSOBig"
@@ -40,26 +40,6 @@
         "linkedin": "https://www.linkedin.com/in/lucas-gatica-59665a189/"
       }
     }
-    ,
-    {
-      "id": 3,
-      "nome": "AquaSustain",
-      "descricao": "Sistema de monitoramento e controle de irrigação para otimizar o uso da água na agricultura...",
-      "escola": "Agro",
-      "curso": "Engenharia Agronômica",
-      "estagio": "ideia",
-      "tags": ["Agro", "Eng. Agro", "ideia"],
-      "title": "AquaSustain",
-      "diferencial": "- Monitoramento em tempo real: O sistema permite o monitoramento em tempo real das condições do solo e clima, possibilitando ajustes imediatos na irrigação. <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Inteligência artificial: Utiliza algoritmos de aprendizado de máquina para analisar os dados coletados e recomendar ajustes na irrigação, maximizando a eficiência no uso da água.",
-      "description": "O AquaSustain é um sistema de gerenciamento de irrigação que combina sensores de solo e clima, conectividade sem fio e inteligência artificial para otimizar o uso de água na agricultura. O sistema monitora continuamente a umidade do solo, temperatura, precipitação e outros fatores ambientais e, com base nesses dados, ajusta automaticamente o sistema de irrigação para garantir que as plantas recebam a quantidade ideal de água. Ao otimizar o uso da água, o AquaSustain ajuda a reduzir o desperdício e aumentar a produtividade agrícola.",
-      
-      "author": {
-          "name": "Mariana Silva",
-          "photo": "https://t3.ftcdn.net/jpg/01/85/04/84/240_F_185048418_X1kohHSgyAbPJQxPHurs4uXCTmcRSNAp.jpg",
-          "linkedin": "https://www.linkedin.com/in/mariana-silva-12345a190/"
-      }
-  }
-  
     
   ]
   

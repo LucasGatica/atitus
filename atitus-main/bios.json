@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "nome": "EcoConversão",
+        "descricao": "Projeto de conversão de motores a combustão para elétricos...",
+        "escola": "Politécnica",
+        "curso": "Ciência da Computação",
+        "estagio": "MVP",
+        "tags": ["poli", "cc", "mvp"]
+    }
+]
