@@ -48,7 +48,7 @@
       "escola": "Agro",
       "curso": "Agronômia",
       "estagio": "ideia",
-      "tags": ["Agro", "Eng. Agro", "ideia"],
+      "tags": ["Agro", "Agronômia", "ideia"],
       "title": "AquaSustain",
       "diferencial": "- Monitoramento em tempo real: O sistema permite o monitoramento em tempo real das condições do solo e clima, possibilitando ajustes imediatos na irrigação. <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Inteligência artificial: Utiliza algoritmos de aprendizado de máquina para analisar os dados coletados e recomendar ajustes na irrigação, maximizando a eficiência no uso da água.",
       "description": "O AquaSustain é um sistema de gerenciamento de irrigação que combina sensores de solo e clima, conectividade sem fio e inteligência artificial para otimizar o uso de água na agricultura. O sistema monitora continuamente a umidade do solo, temperatura, precipitação e outros fatores ambientais e, com base nesses dados, ajusta automaticamente o sistema de irrigação para garantir que as plantas recebam a quantidade ideal de água. Ao otimizar o uso da água, o AquaSustain ajuda a reduzir o desperdício e aumentar a produtividade agrícola.",
