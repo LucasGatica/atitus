@@ -22,7 +22,7 @@ function createCardContent(projeto) {
     </div>
     <div class="card-tags">
         <div class="tagsDescricao">
-            <p>Escola</p>
+            <p>Área</p>
             <span class="card-tag empreendedorismo">${projeto.escola}</span>
         </div>
         <div class="tagsDescricao">
@@ -131,10 +131,12 @@ function filterProjects(filterSelectId) {
         if (project) {
        
           document.getElementById("project-title").textContent = project.title;
-          document.getElementById("project-description").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.description;
+          document.getElementById("project-description").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.problema;
           document.getElementById("project-diferencial").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.diferencial;
-          document.getElementById("project-solucao").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.description;
-
+          document.getElementById("project-solucao").innerHTML =  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ project.solucao;
+          document.getElementById("videoYT").innerHTML=`
+          <iframe width="460" height="315" src="${project.videoYT}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          ` ;
 
           
           const tags = project.tags.map((tag, index) => {
